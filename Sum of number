@@ -1,0 +1,11 @@
+
+def sum(a):
+   	 
+   	 if a == 0:
+   	 	return 0
+   	 elif a == 1:
+   	 	return 1
+   	 else:
+   	 	return a + sum(a - 1)
+b = sum(3)
+print(b)
